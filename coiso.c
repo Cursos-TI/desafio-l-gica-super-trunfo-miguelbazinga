@@ -30,14 +30,16 @@ int main(){
   float PIBporCapt2 = PIB2 / População2;
 
  //comparações e exibição dos dados
-  printf("Comparação das cartas (PIB por Capital)\n")
-  printf("Carta 1 - Tokyo: %f\n", PIBporCapt1)
-  printf("Carta 2 - São Paulo: %f\n", PIBporCapt2)
+  printf("Comparação das cartas (PIB por Capital)\n");
+  printf("Carta 1 - Tokyo: %f\n", PIBporCapt1);
+  printf("Carta 2 - São Paulo: %f\n", PIBporCapt2);
   if(PIBporCapt1 > PIBporCapt2){
-     printf("Carta 1 Venceu!")
-     else
-     printf("Carta 2 Venceu!")
+     printf("Carta 1 Venceu!");
+  }  else {
+     printf("Carta 2 Venceu!");
   }
   
-  if (PIBporCapt1 > PIBporCapt2)
+  if (PIBporCapt1 > PIBporCapt2);
+
+  return 0;
 }
